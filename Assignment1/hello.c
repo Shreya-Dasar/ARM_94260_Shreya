@@ -2,7 +2,9 @@
 
 int main() {
     // Write C code here
-    printf("Try programiz.pro");
+    printf("Hello World");
 
-    return 0;
+    //gcc return 0;
 }
+
+
