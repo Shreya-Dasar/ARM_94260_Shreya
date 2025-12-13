@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 void print_bin(void *vp, int size);
 void main()
