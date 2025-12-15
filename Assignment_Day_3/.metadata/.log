@@ -1,0 +1,63 @@
+!SESSION 2025-12-16 02:17:06.162 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-12-16 02:18:03.314
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-16 02:18:03.317
+!MESSAGE Log4j2 initialized with config file C:\ST\STM32CubeIDE_1.19.0\STM32CubeIDE\Desktop\SUNBEAM_PRO\94260_Shreya\Assignment_Day_3\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-16 02:18:08.686
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-16 02:19:53.171
+!MESSAGE Indexed 'Task_1' (3 sources, 53 headers) in 1.71 sec: 1,954 declarations; 2,863 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-16 02:22:14.868
+!MESSAGE Indexed 'Task_1' (5 sources, 64 headers) in 0.892 sec: 3,425 declarations; 5,715 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.022%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-16 02:27:21.751
+!MESSAGE Indexed 'Task_2' (3 sources, 53 headers) in 0.381 sec: 1,954 declarations; 2,863 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-16 02:31:17.001
+!MESSAGE Indexed 'Task_2' (5 sources, 64 headers) in 0.655 sec: 3,425 declarations; 5,717 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.022%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-16 02:35:32.732
+!MESSAGE Indexed 'Task_3' (3 sources, 53 headers) in 0.34 sec: 1,954 declarations; 2,863 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-16 02:48:02.948
+!MESSAGE Indexed 'Task_3' (5 sources, 64 headers) in 0.688 sec: 3,427 declarations; 5,750 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.022%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-16 02:54:22.181
+!MESSAGE Indexed 'Task_4' (3 sources, 53 headers) in 0.311 sec: 1,954 declarations; 2,863 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-16 03:05:06.722
+!MESSAGE Indexed 'Task_4' (5 sources, 64 headers) in 0.682 sec: 3,423 declarations; 5,750 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.022%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-16 03:10:59.574
+!MESSAGE Indexed 'Task_5' (2 sources, 53 headers) in 0.31 sec: 1,952 declarations; 2,861 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-16 03:36:21.895
+!MESSAGE Indexed 'Task_5' (5 sources, 64 headers) in 0.661 sec: 3,425 declarations; 5,721 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.022%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-16 03:51:32.450
+!MESSAGE Indexed 'Task_6' (3 sources, 53 headers) in 0.299 sec: 1,954 declarations; 2,863 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+!SESSION 2025-12-16 03:57:53.132 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-12-16 03:58:06.049
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-16 03:58:06.052
+!MESSAGE Log4j2 initialized with config file C:\ST\STM32CubeIDE_1.19.0\STM32CubeIDE\Desktop\SUNBEAM_PRO\94260_Shreya\Assignment_Day_3\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-16 03:58:14.620
+!MESSAGE Started RMI Server, listening on port 41337
