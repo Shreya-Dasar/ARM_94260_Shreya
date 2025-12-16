@@ -41,15 +41,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  18 .debug_line   00000c94  00000000  00000000  0001acc6  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .debug_str    0008b804  00000000  00000000  0001b95a  2**0
+ 19 .debug_str    0008b7f5  00000000  00000000  0001b95a  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .comment      00000043  00000000  00000000  000a715e  2**0
+ 20 .comment      00000043  00000000  00000000  000a714f  2**0
                   CONTENTS, READONLY
- 21 .debug_frame  00000124  00000000  00000000  000a71a4  2**2
+ 21 .debug_frame  00000124  00000000  00000000  000a7194  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .debug_loclists 00000025  00000000  00000000  000a72c8  2**0
+ 22 .debug_loclists 00000025  00000000  00000000  000a72b8  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 23 .debug_line_str 00000089  00000000  00000000  000a72ed  2**0
+ 23 .debug_line_str 0000007a  00000000  00000000  000a72dd  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -143,43 +143,43 @@ int main(void)
  800021c:	f000 f82c 	bl	8000278 <led_init>
 	while(1)
 	{
-	    GPIOD-> ODR ^=BV(12);
+		     GPIOD-> ODR ^=BV(12);
  8000220:	4b14      	ldr	r3, [pc, #80]	@ (8000274 <main+0x5c>)
  8000222:	695b      	ldr	r3, [r3, #20]
  8000224:	4a13      	ldr	r2, [pc, #76]	@ (8000274 <main+0x5c>)
  8000226:	f483 5380 	eor.w	r3, r3, #4096	@ 0x1000
  800022a:	6153      	str	r3, [r2, #20]
-		DelayMs(1000);
+			 DelayMs(1000);
  800022c:	f44f 707a 	mov.w	r0, #1000	@ 0x3e8
  8000230:	f7ff ffca 	bl	80001c8 <DelayMs>
-		GPIOD-> ODR ^= BV(13);
+			 GPIOD-> ODR ^= BV(13);
  8000234:	4b0f      	ldr	r3, [pc, #60]	@ (8000274 <main+0x5c>)
  8000236:	695b      	ldr	r3, [r3, #20]
  8000238:	4a0e      	ldr	r2, [pc, #56]	@ (8000274 <main+0x5c>)
  800023a:	f483 5300 	eor.w	r3, r3, #8192	@ 0x2000
  800023e:	6153      	str	r3, [r2, #20]
-		DelayMs(1000);
+			 DelayMs(1000);
  8000240:	f44f 707a 	mov.w	r0, #1000	@ 0x3e8
  8000244:	f7ff ffc0 	bl	80001c8 <DelayMs>
-		GPIOD-> ODR ^= BV(14);
+			 GPIOD-> ODR ^= BV(14);
  8000248:	4b0a      	ldr	r3, [pc, #40]	@ (8000274 <main+0x5c>)
  800024a:	695b      	ldr	r3, [r3, #20]
  800024c:	4a09      	ldr	r2, [pc, #36]	@ (8000274 <main+0x5c>)
  800024e:	f483 4380 	eor.w	r3, r3, #16384	@ 0x4000
  8000252:	6153      	str	r3, [r2, #20]
-		DelayMs(1000);
+			 DelayMs(1000);
  8000254:	f44f 707a 	mov.w	r0, #1000	@ 0x3e8
  8000258:	f7ff ffb6 	bl	80001c8 <DelayMs>
-		GPIOD->ODR  ^=BV(15);
+			 GPIOD->ODR  ^=BV(15);
  800025c:	4b05      	ldr	r3, [pc, #20]	@ (8000274 <main+0x5c>)
  800025e:	695b      	ldr	r3, [r3, #20]
  8000260:	4a04      	ldr	r2, [pc, #16]	@ (8000274 <main+0x5c>)
  8000262:	f483 4300 	eor.w	r3, r3, #32768	@ 0x8000
  8000266:	6153      	str	r3, [r2, #20]
-		DelayMs(1000);
+			 DelayMs(1000);
  8000268:	f44f 707a 	mov.w	r0, #1000	@ 0x3e8
  800026c:	f7ff ffac 	bl	80001c8 <DelayMs>
-	    GPIOD-> ODR ^=BV(12);
+		     GPIOD-> ODR ^=BV(12);
  8000270:	bf00      	nop
  8000272:	e7d5      	b.n	8000220 <main+0x8>
  8000274:	40020c00 	.word	0x40020c00

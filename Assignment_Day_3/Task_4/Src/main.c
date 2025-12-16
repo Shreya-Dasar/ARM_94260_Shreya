@@ -56,7 +56,6 @@ void led_init(void)
 	GPIOD->PUPDR &= ~(BV(25) | BV(27) | BV(29) | BV(31));
 	GPIOD->PUPDR &= ~(BV(24) | BV(26) | BV(28) | BV(30));
 }
-
 void led_run_lr(void)
 {
 	GPIOD->ODR |=BV(15);
@@ -71,8 +70,6 @@ void led_run_lr(void)
 	GPIOD->ODR |=BV(12);
 	DelayMs(500);
 	GPIOD->ODR &=~BV(12);
-
-
 }
 
 

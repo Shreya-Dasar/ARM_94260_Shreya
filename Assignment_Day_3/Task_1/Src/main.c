@@ -61,11 +61,11 @@ void led_init(void)
 }
 void led_on(void)
 {
-	GPIOD->ODR |= BV(12)| BV(13) | BV(14) | BV(15);
+	GPIOD->ODR |= BV(12);
 }
 void led_off(void)
 {
-	GPIOD->ODR &= ~(BV(12)| BV(13) | BV(14) | BV(15));
+	GPIOD->ODR &= ~(BV(12));
 }
 
 

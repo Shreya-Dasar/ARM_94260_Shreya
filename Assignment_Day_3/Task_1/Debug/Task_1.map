@@ -80,7 +80,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./Src/itm.o
  .debug_macro   0x00000000      0x1df ./Src/itm.o
  .debug_line    0x00000000      0x42d ./Src/itm.o
- .debug_str     0x00000000     0x3e50 ./Src/itm.o
+ .debug_str     0x00000000     0x3e41 ./Src/itm.o
  .comment       0x00000000       0x44 ./Src/itm.o
  .debug_frame   0x00000000       0x38 ./Src/itm.o
  .ARM.attributes
@@ -259,7 +259,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 ./Src/syscalls.o
  .debug_macro   0x00000000       0xce ./Src/syscalls.o
  .debug_line    0x00000000      0x8a7 ./Src/syscalls.o
- .debug_str     0x00000000     0x99db ./Src/syscalls.o
+ .debug_str     0x00000000     0x99cc ./Src/syscalls.o
  .comment       0x00000000       0x44 ./Src/syscalls.o
  .debug_frame   0x00000000      0x2ac ./Src/syscalls.o
  .ARM.attributes
@@ -324,7 +324,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./Src/sysmem.o
  .debug_macro   0x00000000      0x1df ./Src/sysmem.o
  .debug_line    0x00000000      0x583 ./Src/sysmem.o
- .debug_str     0x00000000     0x7779 ./Src/sysmem.o
+ .debug_str     0x00000000     0x776a ./Src/sysmem.o
  .comment       0x00000000       0x44 ./Src/sysmem.o
  .debug_frame   0x00000000       0x34 ./Src/sysmem.o
  .ARM.attributes
@@ -986,11 +986,11 @@ LOAD C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_line    0x000006a1      0x58b ./Src/system_stm32f4xx.o
  .debug_line    0x00000c2c       0x7b ./Startup/startup_stm32f407vgtx.o
 
-.debug_str      0x00000000    0x8b813
- .debug_str     0x00000000    0x8b813 ./Src/main.o
-                              0x8b5d3 (size before relaxing)
- .debug_str     0x0008b813    0x87e5a ./Src/system_stm32f4xx.o
- .debug_str     0x0008b813       0xa5 ./Startup/startup_stm32f407vgtx.o
+.debug_str      0x00000000    0x8b804
+ .debug_str     0x00000000    0x8b804 ./Src/main.o
+                              0x8b5c4 (size before relaxing)
+ .debug_str     0x0008b804    0x87e4b ./Src/system_stm32f4xx.o
+ .debug_str     0x0008b804       0x96 ./Startup/startup_stm32f407vgtx.o
 
 .comment        0x00000000       0x43
  .comment       0x00000000       0x43 ./Src/main.o
@@ -1008,6 +1008,6 @@ LOAD C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
                 0x00000000       0x25 ./Src/system_stm32f4xx.o
 
 .debug_line_str
-                0x00000000       0x89
+                0x00000000       0x7a
  .debug_line_str
-                0x00000000       0x89 ./Startup/startup_stm32f407vgtx.o
+                0x00000000       0x7a ./Startup/startup_stm32f407vgtx.o

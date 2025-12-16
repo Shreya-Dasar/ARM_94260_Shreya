@@ -59,8 +59,8 @@ all: main-build
 main-build: Task_2.elf secondary-outputs
 
 # Tool invocations
-Task_2.elf Task_2.map: $(OBJS) $(USER_OBJS) C:\ST\STM32CubeIDE_1.19.0\STM32CubeIDE\Desktop\SUNBEAM_PRO\94260_Shreya\Assignment_Day_3\Task_2\STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Task_2.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\ST\STM32CubeIDE_1.19.0\STM32CubeIDE\Desktop\SUNBEAM_PRO\94260_Shreya\Assignment_Day_3\Task_2\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Task_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Task_2.elf Task_2.map: $(OBJS) $(USER_OBJS) C:\Users\DELL\ G15\ RYZEN\Desktop\SUNBEAM_PRO\94260_Shreya\Assignment_Day_3\Task_2\STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Task_2.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\DELL G15 RYZEN\Desktop\SUNBEAM_PRO\94260_Shreya\Assignment_Day_3\Task_2\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Task_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
