@@ -20,7 +20,8 @@ unsigned char even(unsigned char byte)
     int count = 0;
     while (temp)
     {
-        if (temp & 1) count++;
+        if (temp & 1) 
+        count++;
         temp >>= 1;
     }
     if (count % 2 != 0) 

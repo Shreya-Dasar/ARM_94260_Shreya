@@ -1,0 +1,36 @@
+!SESSION 2025-12-16 00:59:20.472 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-12-16 01:00:40.473
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-16 01:00:40.476
+!MESSAGE Log4j2 initialized with config file C:\ST\STM32CubeIDE_1.19.0\STM32CubeIDE\Desktop\SUNBEAM_PRO\94260_Shreya\Day_3\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-16 01:00:45.877
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-16 01:02:38.903
+!MESSAGE Indexed 'LED_Blinking' (3 sources, 53 headers) in 1.21 sec: 1,954 declarations; 2,863 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-16 01:05:10.926
+!MESSAGE Indexed 'LED_Blinking' (5 sources, 64 headers) in 0.991 sec: 3,425 declarations; 5,721 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.022%)
+!SESSION 2025-12-16 02:14:31.257 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-12-16 02:14:43.316
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-16 02:14:43.320
+!MESSAGE Log4j2 initialized with config file C:\ST\STM32CubeIDE_1.19.0\STM32CubeIDE\Desktop\SUNBEAM_PRO\94260_Shreya\Day_3\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-16 02:14:51.382
+!MESSAGE Started RMI Server, listening on port 41337

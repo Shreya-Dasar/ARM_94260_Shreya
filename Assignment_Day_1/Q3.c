@@ -11,6 +11,7 @@ int main(void)
         printf("Invalid input.\n");
         return 1;
     }
+    
     unsigned char ch = (unsigned char)n;
     print_bin(&ch, sizeof(ch));
 
