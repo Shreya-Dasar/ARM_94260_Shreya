@@ -1,0 +1,6 @@
+../Src/Toggle.c:10:6:led_init	1
+../Src/Toggle.c:19:6:switch_init	1
+../Src/Toggle.c:28:6:green_on	1
+../Src/Toggle.c:34:6:blue_on	1
+../Src/Toggle.c:40:6:leds_off	1
+../Src/Toggle.c:47:5:switch_status	4
